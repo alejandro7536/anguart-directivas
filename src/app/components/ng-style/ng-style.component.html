@@ -1,0 +1,15 @@
+<h3>NgStyle</h3>
+<br>
+<p [style.fontSize.px]="tamano">
+  Lorem ipsum, dolor sit amet consectetur adipisicing elit. In, est odio autem mollitia quae sint, eius voluptatibus
+  aspernatur possimus vitae tenetur ipsum, accusamus perspiciatis fugiat sed maiores minima quo molestias!
+</p>
+
+<button class="btn btn-primary" (click)="tamano = tamano + 5">
+  <i class="fa fa-plus"></i>
+</button>&nbsp;
+<button class="btn btn-primary" (click)="tamano = tamano - 5">
+  <i class="fa fa-minus"></i>
+</button>&nbsp;
+<span>{{tamano}}px</span>
+<br>
